@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-#docker install
+# docker install
 
 sudo apt-get update
 
@@ -42,7 +42,7 @@ echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https:/
 sudo apt-get update
 sudo apt-get install -y kubectl
 
-#kind binary install
+# kind binary install
 
 curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.11.1/kind-linux-amd64
 chmod +x ./kind
